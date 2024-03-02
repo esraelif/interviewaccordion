@@ -1,8 +1,8 @@
 export const arrowdown = (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
+        width="50"
+        height="50"
         fill="darkred"
         className="bi bi-arrow-down-circle"
         viewBox="0 0 16 16">
@@ -16,8 +16,8 @@ export const arrowdown = (
 export const arrowup = (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
+        width="50"
+        height="50"
         fill="darkred"
         className="bi bi-arrow-up-circle"
         viewBox="0 0 16 16">

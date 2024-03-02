@@ -1,14 +1,14 @@
 import React from 'react';
-import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { arrowdown } from "../helper/Icons"
 
 
-const Question = ({ question, answer, id }) => {
+const Question = ({ questions }) => {
 
     return (
 
-        <div>
-            <h1>{question}</h1>
-            <FaRegArrowAltCircleDown />
+        <div className='questions'>
+            <h2>{questions.question}</h2>
+            {arrowdown}
         </div>
 
 

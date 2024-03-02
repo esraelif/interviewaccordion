@@ -2,15 +2,15 @@ import React from 'react';
 import { questions } from '../helper/Data';
 import Question from './Question';
 
-// import { FaEye } from 'react-icons/fa'; // FaEye ikonunu ekleyelim
+
 
 const InterviewAccord = () => {
     return (
         <>
-            {questions.map((interview, index) => {
+            {questions.map((questions, id) => {
                 return (
-                    <div key={index}>
-                        <Question {...questions}>
+                    <div className='question' key={questions.id}>
+                        <Question questions={questions}>
 
                         </Question>
 
