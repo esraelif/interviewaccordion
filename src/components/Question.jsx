@@ -11,15 +11,23 @@ const Question = ({ questions }) => {
     return (
         <div className='questions' onClick={toggleArrow}>
             {arrow ? (
-                <div className='card'>
+                <div className='cardfront'>
 
                     <h2>{questions.id}.{questions.question}</h2>
-                    <div className='button'>{arrowdown}</div>
+                    <button className='button'>{arrowdown}</button>
                 </div>
             ) : (
-                <div className='card'>
-                    <h2>{questions.answer}</h2>
-                    <div className='button'>{arrowup}</div>
+                <div className='cardback'>
+                    <div className="answer">
+                        <h2>{questions.id}.{questions.question}</h2>
+                        <button className='button'>{arrowup}</button>
+                    </div>
+
+                    <div className="ans">
+                        <h3>{questions.answer}</h3>
+                    </div>
+
+
                 </div>
             )}
         </div>

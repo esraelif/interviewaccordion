@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: linear-gradient(to right, #034d39, #67e28e);
+  background: linear-gradient(to right, #038663, #67e28e);
 }
 
 .header {
@@ -24,8 +24,8 @@
 
 .questions {
   /* border: 1px solid blue; */
-  height: 200px;
-  width: 950px;
+  height: 250px;
+  width: 1000px;
   border-bottom: 5px solid black;
   border-right: 3px solid black;
   display: flex;
@@ -36,39 +36,54 @@
 
 h2 {
   color: darkred;
-
   font-size: 36px;
-
   height: 100%;
   width: 100%;
 
 }
 
+h3 {
+  font-size: 28px;
+  color: wheat;
+}
+
 .button {
-  border: 1px solid yellow;
-  height: 80px;
-  width: 80px;
+  border: 5px solid darkred;
+  height: 4rem;
+  width: 4rem;
+  outline: none;
+  border: none;
   border-radius: 50%;
-  background-color: wheat;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  background: hsla(0, 4%, 100%, .5);
 
 }
+
+
+
+
+
 
 .button:hover {
   cursor: pointer;
-  transform: scale(1.5rem);
+  transform: scale(0.9);
 }
 
-.card {
+.cardfront {
   width: 100%;
   /* border: 1px solid red; */
   display: flex;
+  margin: 0 30px;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+}
 
+
+
+.answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
