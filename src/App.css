@@ -6,32 +6,69 @@
 }
 
 .header {
-  font-size: 1.5rem;
-  color: black;
+  font-size: 2rem;
+  color: wheat;
   text-align: center;
   align-items: center;
   margin-top: 100px;
 }
 
 .question {
+  /* border: 1px solid yellowgreen; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 110px;
 }
 
 .questions {
-  height: 150px;
+  /* border: 1px solid blue; */
+  height: 200px;
   width: 950px;
-  gap: 100px;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  border-bottom: 5px solid black;
+  border-right: 3px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 20px 20px 20px 0 black;
 }
 
 h2 {
-  font-size: 32px;
+  color: darkred;
+
+  font-size: 36px;
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.button {
+  border: 1px solid yellow;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.5rem);
+}
+
+.card {
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+
 }
