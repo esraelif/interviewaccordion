@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { arrowdown, arrowup } from "../helper/Icons";
+import { arrowdown, Arrowup } from "../helper/Icons";
 
 const Question = ({ questions }) => {
     const [arrow, setArrow] = useState(true);
@@ -20,7 +20,7 @@ const Question = ({ questions }) => {
                 <div className='cardback'>
                     <div className="answer">
                         <h2>{questions.id}.{questions.question}</h2>
-                        <button className='button'>{arrowup}</button>
+                        <button className='button'><Arrowup /></button>
                     </div>
 
                     <div className="ans">
