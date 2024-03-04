@@ -2,6 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+}
+
+body {
   background: linear-gradient(to right, #038663, #67e28e);
 }
 
@@ -57,19 +61,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: hsla(0, 4%, 100%, .5);
 
 }
-
-.bi bi-arrow-up-circle {
-  background-color: wheat;
-  border: 2px solid blue;
-}
-
-
-
-
-
 
 .button:hover {
   cursor: pointer;
